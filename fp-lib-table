@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Xineos1511_LVDS_Adapter")(type "KiCad")(uri "${KIPRJMOD}/Xineos1511_LVDS_Adapter.pretty")(options "")(descr ""))
+)
