@@ -1586,7 +1586,7 @@
 			(uuid "c40c6e10-067a-4ac5-bcf0-e349d4c59352")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Nate/Documents/KiCad/7.0/3dmodels/LED_D5.0mm_Right-Angle.step"
+		(model "${KIPRJMOD}/3D_Models/LED_D5.0mm_Right-Angle.step"
 			(offset
 				(xyz 0 0.65 5)
 			)
@@ -3559,7 +3559,7 @@
 			(uuid "4abaf1a4-e777-4868-91cf-1aa6540a9d69")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Nate/Downloads/160574947-659-1757242/1757242.stp"
+		(model "${KIPRJMOD}/3D_Models/1757242.stp"
 			(offset
 				(xyz -3.57 -10 0)
 			)
@@ -5005,7 +5005,7 @@
 			(uuid "975aec3c-146b-4954-a061-32ca9052f289")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Nate/Documents/KiCad/7.0/3dmodels/MDR_Female_PCB_Mount_Connector.step"
+		(model "${KIPRJMOD}/3D_Models/MDR_Female_PCB_Mount_Connector.step"
 			(offset
 				(xyz -20.95 3.1 0)
 			)
@@ -7411,9 +7411,9 @@
 			(uuid "88c932d6-9907-49ec-9733-b8e297cb356b")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Nate/Documents/KiCad/7.0/3dmodels/VHDCI_Female_PCB_Mount_Connector.step"
+		(model "${KIPRJMOD}/3D_Models/VHDCI_Female_PCB_Mount_Connector.step"
 			(offset
-				(xyz 22.3 -0.5 0)
+				(xyz 22.35 -0.45 0)
 			)
 			(scale
 				(xyz 1 1 1)
