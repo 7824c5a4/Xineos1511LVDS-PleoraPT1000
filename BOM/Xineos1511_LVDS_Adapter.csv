@@ -1,0 +1,16 @@
+PCB Reference,Qty,Value,KiCAD Footprint,Optional?,Notes,Suggested Part Manufacturer,Suggested Part Number,Suggested Part Datasheet Link
+C1,1,.047uF,Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,No,Charge pump,KEMET,C1206C473K5RAC,
+"C2,C3,C4",3,.33uF,Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,No,Charge pump,KEMET,C1206C334K5RAC,
+C5,1,.1uF,Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,No,Bypass capacitor,KEMET,C1206C104M5RACTU,
+D1,1,LED,LED_THT:LED_D5.0mm,Yes* (See Note),20mA nominal. Exclude if not using RS-232 OK LED indicator circuit,,,
+J1,1,VIN,Xineos1511_LVDS_Adapter:MSTB-5.0mm-x2,No,Mates with 1757019. Can be swapped for PJ-202A,Phoenix Contact,1757242,https://www.phoenixcontact.com/en-us/products/pcb-header-mstb-25-2-g-1754436?type=pdf
+J1*,1,VIN,Connector_BarrelJack:BarrelJack_Horizontal,No* (See Note),Alternative to Phoenix connector for J1,Same Sky,PJ-202A,https://www.sameskydevices.com/product/resource/pj-202a.pdf
+J2,1,68_Pin_VHDCI_Xineos,Xineos1511_LVDS_Adapter:VHDCI_68,No,Standoffs sourced separately,TE Connectivity,5796055-2,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=5796055&DocType=Customer+Drawing&DocLang=English&PartCntxt=5796055-2&DocFormat=pdf
+J3,1,68_Pin_MDR_PT1000,Xineos1511_LVDS_Adapter:MDR_68,No,Standoffs sourced separately,Hirose Connector,DX10M-68SE(50),https://www.hirose.com/en/product/document?clcode=CL0230-5071-4-50&productname=DX10M-68SE(50)&series=DX*M&documenttype=2DDrawing&lang=en&documentid=0000884940
+J4,1,Debug Header,Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical,Yes,2.54mm (.1in) pitch,,,
+Q1,1,2N3904,Package_TO_SOT_THT:TO-92L_Inline_Wide,Yes* (See Note),Exclude if not using RS-232 OK LED indicator circuit,onsemi / Fairchild,2N3904TFR,https://www.onsemi.com/pub/Collateral/2N3903-D.PDF
+R1,1,3.3K,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,Yes* (See Note),Exclude if not using RS-232 OK LED indicator circuit,Vishay / Dale,CRCW12063K30FKEA,
+R2,1,220R,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,Yes* (See Note),Exclude if not using RS-232 OK LED indicator circuit,Vishay / Dale,CRCW1206220RFKEAC,
+U1,1,MAX3221,Package_SO:SSOP-16_5.3x6.2mm_P0.65mm,No,,Texas Instruments,MAX3221IDBR,http://www.ti.com/lit/ds/symlink/max3221.pdf
+,,,,,,,,
+,1,1455L801BK,,Yes,Optional extruded aluminum Enclosure. End plate machining required,Hammond Manufacturing,1455L801BK,https://www.hammfg.com/electronics/small-case/extruded/1455.pdf
