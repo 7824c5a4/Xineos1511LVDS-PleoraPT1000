@@ -9251,6 +9251,22 @@
 				)
 			)
 		)
+		(property "Suggested Part Manufacturer" "Texas Instruments"
+			(at 148.59 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Suggested Part Number" "MAX3221IDBR"
+			(at 148.59 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "11"
 			(uuid "f625548f-3907-4549-ba1d-5471880c362f")
 		)
@@ -9360,6 +9376,22 @@
 			)
 		)
 		(property "Mouser Part Number" ""
+			(at 170.18 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Suggested Part Manufacturer" "KEMET"
+			(at 170.18 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Suggested Part Number" "C1206C334K5RAC"
 			(at 170.18 91.44 0)
 			(effects
 				(font
@@ -9565,6 +9597,22 @@
 				(hide yes)
 			)
 		)
+		(property "Suggested Part Manufacturer" ""
+			(at 232.41 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Suggested Part Number" ""
+			(at 232.41 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "15"
 			(uuid "9c7b839d-c05d-45c6-98e7-e5e4de2d30e5")
 		)
@@ -9740,6 +9788,22 @@
 			)
 		)
 		(property "Mouser Part Number" ""
+			(at 58.42 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Suggested Part Manufacturer" "TE Connectivity"
+			(at 58.42 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Suggested Part Number" "5796055-2"
 			(at 58.42 105.41 0)
 			(effects
 				(font
@@ -10019,6 +10083,22 @@
 				)
 			)
 		)
+		(property "Suggested Part Manufacturer" "KEMET"
+			(at 170.18 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Suggested Part Number" "C1206C334K5RAC"
+			(at 170.18 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "16d1e8c2-90c6-43b0-af58-49e86d690739")
 		)
@@ -10153,6 +10233,22 @@
 			)
 		)
 		(property "Mouser Part Number" ""
+			(at 128.27 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Suggested Part Manufacturer" "KEMET"
+			(at 128.27 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Suggested Part Number" "C1206C473K5RAC"
 			(at 128.27 86.36 0)
 			(effects
 				(font
@@ -10370,6 +10466,22 @@
 				)
 			)
 		)
+		(property "Suggested Part Manufacturer" "onsemi / Fairchild"
+			(at 173.99 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Suggested Part Number" "2N3904TFR"
+			(at 173.99 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "fc4d6f27-4151-4ef2-8dc1-1441b7ceb436")
 		)
@@ -10579,6 +10691,22 @@
 				)
 			)
 		)
+		(property "Suggested Part Manufacturer" "KEMET"
+			(at 128.27 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Suggested Part Number" "C1206C334K5RAC"
+			(at 128.27 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "780196f8-f786-4dbe-bc27-f26d8c83bfe6")
 		)
@@ -10655,6 +10783,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Suggested Part Manufacturer" "Phoenix Contact"
+			(at 110.49 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Suggested Part Number" "1757242"
+			(at 110.49 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -10791,6 +10935,22 @@
 			)
 		)
 		(property "Mouser Part Number" ""
+			(at 176.53 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Suggested Part Manufacturer" "Vishay / Dale"
+			(at 176.53 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Suggested Part Number" "CRCW1206220RFKEAC"
 			(at 176.53 45.72 0)
 			(effects
 				(font
@@ -11108,7 +11268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/185/DX10M_68SE_50__CL0230_5071_4_50_2DDrawing_00008849-1614535.pdf"
+		(property "Datasheet" "https://www.hirose.com/en/product/document?clcode=CL0230-5071-4-50&productname=DX10M-68SE(50)&series=DX*M&documenttype=2DDrawing&lang=en&documentid=0000884940"
 			(at 232.41 105.41 0)
 			(effects
 				(font
@@ -11126,6 +11286,22 @@
 			)
 		)
 		(property "Mouser Part Number" ""
+			(at 232.41 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Suggested Part Manufacturer" "Hirose Connector"
+			(at 232.41 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Suggested Part Number" "DX10M-68SE(50)"
 			(at 232.41 105.41 0)
 			(effects
 				(font
@@ -11408,6 +11584,22 @@
 				)
 			)
 		)
+		(property "Suggested Part Manufacturer" ""
+			(at 176.53 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Suggested Part Number" ""
+			(at 176.53 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bd6eaf75-c2b3-491a-9521-47b1e0696ae1")
 		)
@@ -11541,6 +11733,22 @@
 				(hide yes)
 			)
 		)
+		(property "Suggested Part Manufacturer" "KEMET"
+			(at 154.94 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Suggested Part Number" "C1206C104M5RACTU"
+			(at 154.94 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c32a766d-f1d3-466f-8511-e8b781924530")
 		)
@@ -11608,6 +11816,22 @@
 			)
 		)
 		(property "Mouser Part Number" ""
+			(at 162.56 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Suggested Part Manufacturer" "Vishay / Dale"
+			(at 162.56 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Suggested Part Number" "CRCW12063K30FKEA"
 			(at 162.56 57.15 0)
 			(effects
 				(font
