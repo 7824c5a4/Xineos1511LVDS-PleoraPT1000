@@ -1,8 +1,8 @@
 # eBUS Player Recommended settings
 
-The settings in this document have been successfully used to communicate with and capture images from a Xineos-1511 using the PT1000-LV and the adapter PCB. Your configuration my differ depending on your desired setup, but these settings work well as a baseline. Note that any settings not specified can be left in their default states.
+The settings in this document have been successfully used to communicate with and capture images from a Xineos-1511 using the PT1000-LV and the adapter PCB. Your configuration may differ depending on your desired setup, but these settings work well as a baseline for capturing still images. Note that any settings not specified can be left in their default states.
 
-You may need to set the "Visibility" dropdown to "Expert" or "Guru" to see the necessary settings in the three menus.
+You may need to set the "Visibility" dropdown in eBus Player to "Expert" or "Guru" to see the necessary settings in the three menus.
 
 ## In the Device Control menu:
 
@@ -40,13 +40,13 @@ You may need to set the "Visibility" dropdown to "Expert" or "Guru" to see the n
         - GrbCh0AcqCfgPixelBusDataPortMapping: CBA
         - GrbCh0AcqCfgInvertPixelData: True *(Personal Preference- depends how you plan to process captures)*
   - PixelBusInterface ->
-    - PixelBusSerialSelect: UART0 *(set to Unused if you want to use the PLC connector on the PT1000 to do serial communication- it can only communicate via one of these methods simultaneously)*
+    - PixelBusSerialSelect: UART0 *(set to Unused if you want to use the PLC connector on the PT1000 to do serial communication- it can only communicate via one of these interfaces at a time)*
     - PixelBusDataValidEnabled: True
     - PixelBusDataValidPolarity: High
     - PixelBusLineValidPolarity: High
     - PixelBusLineValidEdgeSensitivity: Level
     - PixelBusFrameValidEdgeSensitivity: Level
-    - PixelBusClockPresent: *(This is a read-only field, but it will show True if the PT1000 can detect the pixel clock signal coming from the Xineos-1511. Useful for troubleshooting)*
+    - PixelBusClockPresent: *(This is a read-only field, but it will show True if the PT1000 can detect the pixel clock signal coming from the Xineos-1511. Useful for debugging)*
 
 Optionally, once you have all the settings set to a working configuration, you can use the following menu items to save the current configuration to the PT1000's startup configuration:
 
@@ -55,7 +55,7 @@ Optionally, once you have all the settings set to a working configuration, you c
   - UserSetDefaultSelector: UserSet1
   - UserSetSave: *(Press the UserSetSave button)*
 
-As of publishing the initial version of this document, no testing has been done with the PLC control options, but they can be used to configure image capture triggering, various timing parameters, and other logic inputs and outputs. For example, PT1000 and Xineos-1511 can be synchronized with a pulsed X-ray tube, in order to only capture images during an exposure. The PLC options could also be used to synchronize captures with a linear motion mechanism if the Xineos-1511 is being used as a line scan detector.
+As of publishing the initial version of this document, no testing has been done with the PLC control options, but they can be used to configure image capture triggering, various timing parameters, and other logic inputs and outputs. For example, PT1000 and Xineos-1511 can be synchronized with a pulsed X-ray tube, in order to only capture images during an exposure. The PLC options could also be used to synchronize captures with a linear motion mechanism if the Xineos-1511 is being used as a line scan detector or in conjunction with a rotating stage for CT applications.
 
 ## Communication Control
 
